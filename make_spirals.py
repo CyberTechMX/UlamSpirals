@@ -2,8 +2,8 @@
 #-*- encoding: utf-8 -*-
  
 def make_spiral(n):
-	if n % 2 == 0:
-		n -= 1
+    if n % 2 == 0:
+        n -= 1
     matrix = []
     for x in range(n):
         sm = []
